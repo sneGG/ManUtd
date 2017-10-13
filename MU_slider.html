@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="slider.css">
+  <link rel="stylesheet" type="text/css" href="menu.css">
+  <title>Manchester United Unoficial Page</title>
+  <style>
+      
+
+      </style>
+</head>
+<body>
+        <!--
+We will make a slider with stylized thumbnails using CSS3
+The markup is very simple:
+Radio Inputs
+Labels with thumbnails to detect click event
+Main Image
+-->
+
+
+<div class="slider">
+        <input type="radio" name="slide_switch" id="id1"/>
+        <label for="id1">
+                <img src="rsz_slide2.jpg" width="100"/>
+        </label>
+        <img src="rsz_slide2.jpg"/>
+        
+        <!--Lets show the second image by default on page load-->
+        <input type="radio" name="slide_switch" id="id2" checked="checked"/>
+        <label for="id2">
+                <img src="rsz_slide1.jpg" width="100"/>
+        </label>
+        <img src="rsz_slide1.jpg"/>
+        
+        <input type="radio" name="slide_switch" id="id3"/>
+        <label for="id3">
+            <img src="rsz_slide3.jpg" width="100"/>
+        </label>
+        <img src="rsz_slide3.jpg"/>
+        
+        <input type="radio" name="slide_switch" id="id4"/>
+        <label for="id4">
+            <img src="rsz_slide4.jpg" width="100"/>
+        </label>
+        <img src="rsz_slide4.jpg"/>
+        
+        <input type="radio" name="slide_switch" id="id5"/>
+        <label for="id5">
+            <img src="rsz_slide5.jpg" width="100"/>
+        </label>
+        <img src="rsz_slide5.jpg" />
+    </div>
+   
+    <div>
+            <ul class="menu cf">
+                    <li><a href="#">Home</a></li>
+                    <li>
+                      <a href="#">Stadium</a>
+                      
+                    </li>
+                    <li><a href="#">Team</a>
+                        <ul class="submenu">
+                                <li><a href="#">First team</a></li>
+                                <li><a href="#">Trainers</a></li>
+                                <li><a href="#">Fixtures</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">History</a>
+                        <ul class="submenu">
+                                <li><a href="#">Trophies</a></li>
+                                <li><a href="#">Records</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">About Us</a></li>
+                  </ul>
+    </div>
+    
+   
+    
+</body>
